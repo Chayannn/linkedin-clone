@@ -7,9 +7,11 @@
   padding: 10px 0;
   width: 100%;
   z-index: 999;
+  background-color: #fff;
 }
 .header__left {
   display: flex;
+  
 }
 .header__left > img {
   object-fit: contain;

@@ -7,7 +7,6 @@ import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import ChatIcon from '@mui/icons-material/Chat';
 import NotificationsIcon from '@mui/icons-material/Notifications';
-import { Avatar } from '@mui/material';
 function Header() {
   return (
     <div className="header">
@@ -29,7 +28,10 @@ function Header() {
         <HeaderOptions Icon={BusinessCenterIcon} title="Jobs" />
         <HeaderOptions Icon={ChatIcon} title="Messaging" />
         <HeaderOptions Icon={NotificationsIcon} title="Notifications" />
-        <HeaderOptions title="me" avatar ="https://lh3.googleusercontent.com/NqZWPYAuTNe_Ca5Yp5254RpcX0MQrjkfvdwJf4jFuPSw1p84941dN9Bx7VHgKIf5HOclwQnQRamIJSPlmGv_O29M1WbhhmQVu10dCOXhi1ymDUGUJeoGeVnYSk-3ncn-3O51sTCIBTAB28hWozw5ok3Ue5-ollMTw4pY1OZ3A0p7PqkR8lfdSUM5c7DD4Fua2JtE1aAlA6JuuQlewOzGRNEVPbFXHwJW6gsUh7j9dikttJTyg0NjCA5znWKTtxYl1qnZqhmEvaHlr8tY1OX93DGtDrbc4XK1uR2q6WqDrXmIjYyOEhUHpoKNO17hTHaMLLgRTpoBEFEMVtivO3cl67lUawx6XB_PQoGvHoF0qbvzVv6buH0A7l3RIv9-cWevU_oEODJNb88KhxFt7rxnPFtLweL6np-io_5KGr2OQ3-U1EAhDkO9hESgKKcy-mGlMz9acYad_Z5fClMxLIg0Lo-RBmjV5AAAnrZl3xSFxL7esBBr60a1RmOZfU9jJZ8aNUYB-GHNN5QVtmqSvWBSWB1RkGKkBi3Y4fDVFWogZFeXwd5TXJEsOf5qBn5DT_PiJrPB-Pr6w7_QZo22G11CjIj1ANe1m7CN__wOFqbX0nfhqF4ZByz5RykiKOfm4CWvH_wtu9Na9XjH0N4LvDIn1_QTrV1nzhFPlBRMAJYzkVjIRJU3MxYbwBcF1YMQTvz9wlW9pEbtMvAMytk0mVz7Sz7bXzwb2fXf71C5oEcj4qkkkaRYoVmZS5nmF9255NGtaAHC7txOPPLhBZtjWaMLm6QJ29WAgbwXQ2UG8qmiYNV02RvCMnVlKxYKwgRNny7ugdRjzZmc1Bm8iWwSu0cMukiv-0Pg0r4S_JHsP_bEgRuZSEK2Hkr-xFVuV0VTCOzYI9em5HR4heTWG_W39ZaY44U4Oh4gTitUqRgJ5zwmZfRnTQ=w640-h640-s-no?authuser=0" />
+        <HeaderOptions
+          title="me"
+          avatar="https://lh3.googleusercontent.com/cLkyQKKyfNxKYDceid7mGs44shse8SUXwf93P70GaTwp_ptEJMOd9xbtpXyhGMH1ln0RBnVbKrx9ys63v_TFbrUKFQXhIKwkYB6JbgSMXRXiGaZqyxZRQVP0I8IwRbWyx5xOuPOYvi9-APIL5kPOVbTf4ufOngV2G6QZrNfzQboSkHSdh4NUXh4xD-y9iHKjr_f6dxTge0qcrSUG1CD_QyNSX2-HHpc9Re0_bbLwi1RQr-g5Ecft_FH9vXx0iyAGxXRf0TCfl5LhZqp96WnC8wv4CITxqBf8tIWMoN0REAOeTuH-91yuhi8nCJHRUK9b1q2CQYxaVaqfg2F4TKtYL0hwwxBvVShHUrzp2p20FJSkW6t4w8_9rHq79Ucvas1fvddhLj6HxxlTLcsT3lKvA4QGFS64y0EsCaVgp0y-Y2SxJugqbBS3J4BK9buOqXlpeOkqQisbCVSBXiPX7IHv1WuormR7CilIzH891-wBSdww0Dm__R4MsagxZibtIWZfxJNwKLzS5_hfvv4gyO1dJTt0fnCMpI0zN7BW4lhdfLFigZDvflQ_1_k2ObBrykSgNfEsi1vxeaLYOVOvQh7qorCRWb7-bXqUdbsFJnUoVdF6wDjXcdRYiCnAMK2IeVNf4bfDyfzkkK8gh0tlBz75Oj9VYUsajPWVjLt_OMfm_IJePP720D7LXz2pHa-4GZyn2F5SJ59FBZp_azC7UxQ8fdSeQ5xLF9Zkvd0cWjkwe_3KXq_P-TB6S5rn6009RTC2Urg7WHxu02A3nE3Ts4egqS9ys-DgpUY8JLJIvJzF-i5G-6VT-Zfm4pXcN80jNc7E2tFfWUTswzWXvBIhLZ46v9cwgK53TCbUG52_gmv-09ECnzJGODcLpKPqZXrh-drK84BTZfeLaATOojGljnrmsVbi1piHP8k0Zp5c82YxNcCicg=w640-h640-s-no?authuser=0"
+        />
       </div>
     </div>
   );
