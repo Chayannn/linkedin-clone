@@ -19,7 +19,7 @@ function Sidebar() {
           src="https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80"
           alt="background_image"
         />
-        <Avatar className="sidebar__avatar" />
+        <Avatar className="sidebar__avatar" src='https://magnificent-dolphin-599305.netlify.app/IMG_20220422_202835_312%20(1).jpg' />
         <h2>Chayan Panda</h2>
         <h4>Chayanpanda@gmail.com</h4>
       </div>

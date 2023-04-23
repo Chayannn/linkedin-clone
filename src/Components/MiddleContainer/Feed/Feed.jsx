@@ -33,7 +33,8 @@ function Feed() {
       name: 'Chayan Panda',
       description: 'This is a test I repeat this is a test',
       message: input,
-      photoUrl: '',
+      photoUrl:
+        'https://magnificent-dolphin-599305.netlify.app/IMG_20220422_202835_312%20(1).jpg',
       timeStamp: firebase.firestore.FieldValue.serverTimestamp(),
     });
     setInput('');

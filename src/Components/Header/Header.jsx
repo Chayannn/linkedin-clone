@@ -30,7 +30,7 @@ function Header() {
         <HeaderOptions Icon={NotificationsIcon} title="Notifications" />
         <HeaderOptions
           title="me"
-          avatar="https://lh3.googleusercontent.com/cLkyQKKyfNxKYDceid7mGs44shse8SUXwf93P70GaTwp_ptEJMOd9xbtpXyhGMH1ln0RBnVbKrx9ys63v_TFbrUKFQXhIKwkYB6JbgSMXRXiGaZqyxZRQVP0I8IwRbWyx5xOuPOYvi9-APIL5kPOVbTf4ufOngV2G6QZrNfzQboSkHSdh4NUXh4xD-y9iHKjr_f6dxTge0qcrSUG1CD_QyNSX2-HHpc9Re0_bbLwi1RQr-g5Ecft_FH9vXx0iyAGxXRf0TCfl5LhZqp96WnC8wv4CITxqBf8tIWMoN0REAOeTuH-91yuhi8nCJHRUK9b1q2CQYxaVaqfg2F4TKtYL0hwwxBvVShHUrzp2p20FJSkW6t4w8_9rHq79Ucvas1fvddhLj6HxxlTLcsT3lKvA4QGFS64y0EsCaVgp0y-Y2SxJugqbBS3J4BK9buOqXlpeOkqQisbCVSBXiPX7IHv1WuormR7CilIzH891-wBSdww0Dm__R4MsagxZibtIWZfxJNwKLzS5_hfvv4gyO1dJTt0fnCMpI0zN7BW4lhdfLFigZDvflQ_1_k2ObBrykSgNfEsi1vxeaLYOVOvQh7qorCRWb7-bXqUdbsFJnUoVdF6wDjXcdRYiCnAMK2IeVNf4bfDyfzkkK8gh0tlBz75Oj9VYUsajPWVjLt_OMfm_IJePP720D7LXz2pHa-4GZyn2F5SJ59FBZp_azC7UxQ8fdSeQ5xLF9Zkvd0cWjkwe_3KXq_P-TB6S5rn6009RTC2Urg7WHxu02A3nE3Ts4egqS9ys-DgpUY8JLJIvJzF-i5G-6VT-Zfm4pXcN80jNc7E2tFfWUTswzWXvBIhLZ46v9cwgK53TCbUG52_gmv-09ECnzJGODcLpKPqZXrh-drK84BTZfeLaATOojGljnrmsVbi1piHP8k0Zp5c82YxNcCicg=w640-h640-s-no?authuser=0"
+          avatar="https://magnificent-dolphin-599305.netlify.app/IMG_20220422_202835_312%20(1).jpg"
         />
       </div>
     </div>
