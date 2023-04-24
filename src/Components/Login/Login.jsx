@@ -2,14 +2,13 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import './Login.css';
 import { auth } from '../../firebase';
-import {login} from '../../features/userSlice'
-
+import { login } from '../../features/userSlice';
 
 const Login = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [name, setName] = useState("");
-  const [profilePic, setProfilePic] = useState("");
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [name, setName] = useState('');
+  const [profilePic, setProfilePic] = useState('');
   const dispatch = useDispatch();
 
   const loginHandler = async (e) => {
@@ -32,7 +31,7 @@ const Login = () => {
 
   const registerHandler = async () => {
     if (!name) {
-      return alert("Please enter a full name!");
+      return alert('Please enter a full name!');
     }
 
     try {
@@ -101,7 +100,7 @@ const Login = () => {
       </form>
 
       <p>
-        Not a member?{" "}
+        Not a member?{' '}
         <span className="login__register" onClick={registerHandler}>
           Register Now
         </span>
