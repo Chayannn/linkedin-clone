@@ -15,16 +15,17 @@
 }
 .header__left > img {
   object-fit: contain;
-  height: 45px;
+  height: 40px;
   margin-right: 10px;
 }
 .header__search {
-  padding: 10px;
+  padding: 5px;
   display: flex;
   align-items: center;
   border-radius: 5px;
   color: gray;
   background-color: #eef3f8;
+  width: 15rem;
 }
 
 .header__search > input {
