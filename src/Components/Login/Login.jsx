@@ -21,7 +21,7 @@ const Login = () => {
           email: userAuth.user.email,
           uid: userAuth.user.uid,
           displayName: userAuth.user.displayName,
-          photoUrl: userAuth.user.photoURL,
+          profilePic: userAuth.user.photoURL,
         })
       );
     } catch (error) {
