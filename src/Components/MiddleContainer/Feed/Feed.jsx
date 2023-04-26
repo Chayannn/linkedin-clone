@@ -42,6 +42,7 @@ function Feed() {
     });
     setInput('');
   };
+  
 
   return (
     <div className="feed">
@@ -70,7 +71,7 @@ function Feed() {
           />
         </div>
       </div>
-      <FlipMove> 
+      <FlipMove>
         {posts.map(({ id, data: { name, message, description, photoUrl } }) => (
           <Post
             key={id}

@@ -42,15 +42,15 @@ const Login = () => {
 
       await userAuth.user.updateProfile({
         displayName: name,
-        photoUrl: profilePic,
+        photoURL: profilePic,
       });
 
       dispatch(
         login({
           email: userAuth.user.email,
           uid: userAuth.user.uid,
-          displayName: name,
-          photoUrl: profilePic,
+          displayName: userAuth.user.displayName,
+          profilePic: userAuth.user.photoURL,
         })
       );
     } catch (error) {
